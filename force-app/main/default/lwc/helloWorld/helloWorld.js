@@ -34,4 +34,19 @@ export default class HelloWorld extends LightningElement {
     }
 
     // two way data binding ends here
+
+    // getter method
+
+    num1 = 10
+    num2 = 20
+    
+    get multiply(){
+        return this.num1 + this.num2;
+    }
+
+    user = ["Pavankumar", "Siri"];
+
+    get firstUser(){
+        return this.user[0];
+    }
 }
