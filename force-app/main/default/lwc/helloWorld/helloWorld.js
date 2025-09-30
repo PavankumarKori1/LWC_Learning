@@ -41,7 +41,7 @@ export default class HelloWorld extends LightningElement {
     num2 = 20
     
     get multiply(){
-        return this.num1 + this.num2;
+        return this.num1 * this.num2;
     }
 
     user = ["Pavankumar", "Siri"];
